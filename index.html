@@ -3,34 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buổi 1 - Thiết kế Web</title>
-
+    <title>Responsive Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Hello World</h1>
-        <p>Website đầu tiên của tôi trong học phần Thiết kế Web</p>
+        <h1>Responsive Portfolio</h1>
+        <p>Bài thực hành số 3 - Thiết kế Web</p>
     </header>
 
-    <main>
-        <section>
-            <h2>Giới thiệu</h2>
-            <p>
-                Đây là bài thực hành Buổi 1 của học phần Thiết kế Web.
-            </p>
+    <main class="portfolio-layout">
+
+        <aside class="sidebar">
+            <h2>Thông tin cá nhân</h2>
+            <p>Họ tên: Nguyễn Văn A</p>
+            <p>Sinh viên học phần Thiết kế Web</p>
+
+            <h3>Kỹ năng</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </aside>
+
+        <section class="main-content">
+            <h2>Portfolio cá nhân</h2>
+
+            <article class="project-card">
+                <h3>Dự án 1</h3>
+                <p>Website thực hành Thiết kế Web sử dụng HTML, CSS và JavaScript.</p>
+            </article>
+
+            <article class="project-card">
+                <h3>Dự án 2</h3>
+                <p>Responsive Portfolio tối ưu cho Desktop và Mobile.</p>
+            </article>
         </section>
 
-        <section>
-            <h2>Công nghệ sử dụng</h2>
-            <p>HTML, CSS, JavaScript, Git, GitHub và AI Assistant.</p>
-        </section>
     </main>
 
     <footer>
-        <p>Học phần Thiết kế Web - Buổi 1</p>
+        <p>Học phần Thiết kế Web</p>
     </footer>
 
     <script src="js/main.js"></script>
