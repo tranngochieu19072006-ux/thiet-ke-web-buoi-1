@@ -1,0 +1,17 @@
+NHẬT KÝ PROMPT - BUỔI 1
+Học phần: Thiết kế Web
+
+Prompt 1:
+Hãy tạo một cấu trúc dự án Web cơ bản gồm index.html, thư mục css, js và assets.
+
+Prompt 2:
+Hãy viết một trang HTML đơn giản sử dụng các thẻ header, main, section và footer.
+
+Prompt 3:
+Hãy viết CSS đơn giản để trang Web có giao diện dễ nhìn, gồm header màu xanh, nội dung trắng và footer màu tối.
+
+Prompt 4:
+Hãy viết JavaScript sử dụng console.log để kiểm tra website đã chạy thành công.
+
+Prompt 5:
+Hãy tạo nội dung README.md mô tả dự án, công nghệ sử dụng, cấu trúc thư mục và cách chạy website.
