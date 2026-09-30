@@ -15,3 +15,18 @@ Hãy viết JavaScript sử dụng console.log để kiểm tra website đã ch�
 
 Prompt 5:
 Hãy tạo nội dung README.md mô tả dự án, công nghệ sử dụng, cấu trúc thư mục và cách chạy website.
+----------------------------------------------------------------------------------
+PROMPT - HOẠT ĐỘNG 4: DESIGN SYSTEM REFACTORING
+
+Hãy trích xuất tất cả các mã màu và thông số khoảng cách
+(margin/padding) trong đoạn code CSS này vào các biến CSS tại :root.
+
+Sau đó, thay thế các giá trị trong code gốc bằng hàm var().
+
+Yêu cầu:
+- Tạo biến quản lý màu sắc.
+- Tạo biến quản lý khoảng cách.
+- Tạo biến border-radius.
+- Tạo biến font.
+- Không làm thay đổi giao diện ban đầu.
+- Khi thay đổi một biến trong :root, các phần tử sử dụng biến đó phải thay đổi theo.
